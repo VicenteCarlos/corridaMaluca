@@ -4,7 +4,7 @@ import {
   getTrack,
   getRunners,
   startRace,
-} from "../src/corrida";
+} from "../src/corrida.mjs";
 const axios = require("axios");
 const mockAdapter = require("axios-mock-adapter");
 
