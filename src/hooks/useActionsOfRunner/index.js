@@ -94,10 +94,10 @@ const useVerificationOfSpeed = (runner) => {
 };
 const useCheatingFromDickSwindler = (runner, track) => {
   if (runner.nome === "Dick Vigarista" && runner.score >= track.tamanho - 1) {
-    arr[i].velocidade = 0;
-    arr[i].drift = 0;
-    arr[i].aceleracao = 0;
-    arr[i].score = 0;
+    runner.velocidade = 0;
+    runner.drift = 0;
+    runner.aceleracao = 0;
+    runner.score = 0;
   }
 };
 const useConditionOfWinner = (runner, track) => {
